@@ -30,7 +30,6 @@ export class App extends Component {
   };
 
   checkFeedbacks = () => {
-    console.log(Object.values(this.state).every(value => value === 0));
     return Object.values(this.state).every(value => value === 0);
   };
 
